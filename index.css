@@ -1,0 +1,450 @@
+body{
+    background: #f5f5f5;
+}
+.jd_layout{
+    min-width:300px;
+    max-width:640px;
+    margin:0 auto;
+    position: relative;
+}
+/*******header**********/
+header{
+    width:100%;
+    height:40px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+.jd_header_box{
+    min-width:300px;
+    max-width:640px;
+    background: rgba(201,21,35,0.85);
+    height:40px;
+    margin:0 auto;
+    position: relative;
+}
+.jd_header_box .icon_logo{
+    background-position: 0 -103px;
+    width:60px;
+    height:36px;
+    position: absolute;
+    top:4px;
+    left:10px;
+}
+.jd_header_box .jd_search{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    padding-left:75px;
+    padding-right:55px;
+    position: relative;
+}
+.jd_header_box .jd_search .icon_search{
+    position: absolute;
+    background-position: -60px -109px;
+    width:20px;
+    height:20px;
+    top:10px;
+    left:85px;
+}
+.jd_header_box .jd_search form input{
+    width:100%;
+    height:26px;
+    border-radius: 15px;
+    padding-left:30px;
+    padding-right:10px;
+}
+.jd_header_box .login{
+    width:40px;
+    height:40px;
+    position: absolute;
+    top:0;
+    right:10px;
+    line-height:40px;
+    text-align: center;
+    color:#fff;
+    font-size: 16px;
+}
+/**********banner*******/
+.jd_banner{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.jd_banner ul{
+    width:900%;
+    position: relative;
+    left:0;
+   /* position: absolute;
+    top:0;*/
+}
+.jd_banner ul li{
+    float: left;
+    width:11.11%;
+}
+.jd_banner ul li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.jd_banner ul li img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.jd_banner ol{
+    width:118px;
+    height:6px;
+    position: absolute;
+    left:50%;
+    margin-left:-59px;
+    bottom:10px;
+}
+.jd_banner ol li{
+    width:6px;
+    height:6px;
+    float: left;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin-right:10px;
+    cursor: pointer;
+}
+.jd_banner ol li:last-child{
+    margin-right:0;
+}
+.jd_banner ol li.current{
+    background: #fff;
+}
+/*********nav*********/
+.jd_nav{
+    width:100%;
+    background: #fff;
+    padding:10px 3.125% 0;
+    height:150px;
+}
+.jd_nav ul{
+    width:100%;
+}
+.jd_nav ul li{
+    float: left;
+    width:25%;
+    text-align: center;
+}
+.jd_nav ul li a{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.jd_nav ul li a img{
+    display: block;
+    width:40px;
+    height:40px;
+    margin:0 auto;
+}
+.jd_nav ul li a span{
+    display: block;
+    font-size: 12px;
+    color:#666;
+    margin-top:4px;
+    margin-bottom: 8px;
+}
+/*******main*************/
+main .jd_product{
+    margin-top:10px;
+    background: #fff;
+    box-shadow: 0 0 1px 1px #e0e0e0;
+}
+main .jd_product_top{
+    height:32px;
+    line-height:32px;
+    border-bottom: 1px solid #e0e0e0;
+}
+main .no_bot{
+    border:none;
+}
+.second_top_left{
+    float: left;
+}
+.second_top_left .icon{
+    float: left;
+    width:16px;
+    height:20px;
+    background: url("../images/seckill-icon.png") no-repeat;
+    background-size:16px 20px;
+    margin:6px 10px 0 10px;
+}
+.second_top_left .name{
+    float: left;
+    font-weight: 400;
+    font-size: 16px;
+    color:#e4393c;
+    margin-right:10px;
+}
+.second_top_left .time{
+    float: left;
+}
+.second_top_left .time span:not(.mh){
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background: #333;
+    line-height:15px;
+    text-align: center;
+    color:#fff;
+}
+.second_top_right{
+    float: right;
+    margin-right: 10px;
+}
+main .jd_product_bot{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.jd_product_bot dl{
+    width:200%;
+    padding:10px 0;
+    position: relative;
+    left:0;
+}
+.jd_product_bot dl dt{
+    float: left;
+    width:16.6667%;
+}
+.jd_product_bot dl dt a{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+.jd_product_bot dl dt a div{
+    width:100%;
+    border-right:1px solid #e0e0e0;
+}
+.jd_product_bot dl dt:nth-of-type(3n) a div{
+    border:none;
+}
+.jd_product_bot dl dt a div img{
+    width:40%;
+    margin:0 auto;
+    display: block;
+}
+.jd_product_bot dl dt a p:first-of-type{
+    color:#e4393c;
+    margin-top:5px;
+}
+.jd_product_bot dl dt a p:last-child{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+/*********超值购*******/
+.jd_product_top .title{
+    font-weight: 400;
+    margin-left:20px;
+}
+.jd_product_top .title::before{
+    content:"";
+    border-left:3px solid #e4393c;
+    padding-right:5px;
+}
+/*main 里的功用样式**/
+main  .jd_product_bot .p_left{
+    width:50%;
+    float: left;
+}
+main .jd_product_bot .b_right{
+    border-right:1px solid #e0e0e0;
+}
+main .jd_product_bot .p_right{
+    width:50%;
+    float: right;
+}
+main .jd_product_bot .b_left{
+    border-left:1px solid #e0e0e0;
+}
+main.jd_product_bot .b_bottom{
+    border-bottom: 1px solid #e0e0e0;
+}
+main .jd_product_bot a img{
+    width:100%;
+    display: block;
+}
+/******为您推荐******/
+.commend{
+    width:100%;
+    background: #f5f5f5;
+}
+.commend .commend_top{
+    border-bottom: 1px solid #e0e0e0;
+    margin:20px 0;
+    position: relative;
+}
+.commend .commend_top p{
+    position: absolute;
+    width:100px;
+    height:22px;
+    line-height:22px;
+    top:-11px;
+    left:50%;
+    margin-left:-40px;
+    background: #f5f5f5;
+    padding:0 5px 0 15px;
+    color:#333;
+}
+.commend .commend_top p i{
+    display: inline-block;
+    width:18px;
+    height:18px;
+    background: url("../images/index.png") no-repeat;
+    background-size:18px 18px;
+    position: relative;
+    top:2px;
+    left:-5px;
+}
+.commend_content,.commend_content ul{
+    width:100%;
+}
+.commend_content ul li{
+    float: left;
+    width:50%;
+    padding-bottom: 4px;
+}
+.commend_content ul li:nth-of-type(2n+1){
+    padding-right:2px;
+}
+.commend_content ul li:nth-of-type(2n){
+    padding-left: 2px;
+}
+.commend_content ul li>a{
+    width:100%;
+    display: block;
+    background: #fff;
+}
+.commend_content ul li>a img{
+    width:100%;
+}
+.commend_content ul li .commend_text{
+    width:100%;
+    background: #fff;
+    padding:0 5px 10px 5px;
+}
+.commend_content ul li .commend_text p{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 5px;
+}
+.commend_content ul li .commend_text .price span{
+    float: left;
+    color:#e4393c;
+    padding-top:5px;
+}
+.commend_content ul li .commend_text .price a{
+    float: right;
+    border:1px solid #e0e0e0;
+    padding:2px 10px;
+    margin-right:2px;
+}
+main .load{
+    width:100%;
+    border-top:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+    text-align: center;
+    padding:5px 0;
+    margin:10px 0;
+}
+main .load a{
+    width:100%;
+    display: block;
+    color:#999;
+}
+/*****footer*********/
+footer{
+    width:100%;
+    background: #f8f8f8;
+    position: relative;
+}
+footer .register{
+    border:1px solid #e0e0e0;
+    border-left:none;
+    border-right:0;
+    padding:20px 0;
+    text-align: center;
+}
+footer .register a{
+    padding:0 10px;
+    color:#848689;
+
+}
+footer .register a+a{
+    border-left:1px solid #ccc;
+}
+footer .app{
+    padding:5px 0;
+    width:100%;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+footer .app a{
+    color:#848689;
+    position: relative;
+    display: inline-block;
+    padding:0 20px;
+
+}
+footer .app a:nth-child(2){
+    color:#333;
+}
+footer .app span{
+    display: block;
+    height: 35px;
+    width: 40px;
+}
+footer .app .icon_app{
+    background-position: -120px -70px;
+}
+footer .app .icon_touch{
+    background-position:  -40px -70px;
+}
+footer .app .icon_compute{
+    background-position: -80px -70px;
+}
+footer .copy{
+    color:#848689;
+    padding:10px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+.footer_fix{
+    width:100%;
+    min-width:340px;
+    max-width:640px;
+    position: fixed;
+    bottom:0;
+    background: #fff;
+}
+.footer_fix ul{
+    width:100%;
+}
+.footer_fix ul li{
+    float: left;
+    width:20%;
+}
+.footer_fix ul li img{
+    width:57px;
+    height:54px;
+    margin:0 auto;
+}
+.go_top{
+    position: fixed;
+    bottom:50px;
+    right:20px;
+    display: none;
+}
+.go_top img{
+    width:40px;
+}
